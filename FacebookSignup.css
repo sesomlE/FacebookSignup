@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 980px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;    /* Centers horizontally */
+    text-align: center;     /* Ensures text is also centered */
+}
+
+.left-section h1 {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.left-section p {
+    font-size: 20px;
+    color: #606770;
+    margin-top: 10px; /* Adds spacing below the heading */
+}
+
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  text-align: center;
+}
+
+.signup-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c1e21;
+  margin-bottom: 5px;
+}
+
+.signup-box p {
+  color: #606770;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+.dob-fields select {
+  width: 32%;
+  padding: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.gender-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.gender-fields label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: #1c1e21;
+}
+
+/* Signup Button */
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #36a420;
+}
+
+/* Terms */
+.terms {
+  font-size: 12px;
+  color: #606770;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.terms a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}

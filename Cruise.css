@@ -1,0 +1,104 @@
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  width: 70%;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left Section (Text) */
+.container div:first-child {
+  max-width: 50%;
+}
+
+.container h1 {
+  font-size: 50px;
+  color: #1877f2;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container p {
+  font-size: 24px;
+  color: #606770;
+  margin-top: 10px;
+}
+
+/* Right Section (Form) */
+form {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input Fields */
+form input[type="text"],
+form input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Buttons */
+form .login-btn,
+form .signup-btn {
+  width: 90%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form .login-btn {
+  background-color: #1877f2;
+  color: white;
+}
+
+form .signup-btn {
+  background-color: #42b72a;
+  color: white;
+}
+
+/* Link Styling */
+form .forgot-link {
+  margin-top: 10px;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+form .forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Divider Line */
+form hr {
+  width: 90%;
+  margin: 20px 0;
+  border: 0;
+  height: 1px;
+  background-color: #dddfe2;
+}
